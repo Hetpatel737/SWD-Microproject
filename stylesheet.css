@@ -1,0 +1,294 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}
+
+body {
+    background-color: rgb(172, 230, 224);
+}
+
+header {
+    background-color: rgb(101, 151, 199);
+    border: 1px solid rgb(0, 54, 105);
+    border-radius: 4px;
+    height: 130px;
+}
+
+#left {
+    display: inline-block;
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    width: 30%;
+    font-size: 25px;
+}
+
+#logo {
+    width: 68px;
+    height: 50px;
+
+}
+
+#fulllogo {
+    display: inline-block;
+    position: absolute;
+    left: 70px;
+    top: 10px;
+    width: auto;
+
+}
+
+#logo:hover {
+    cursor: pointer;
+
+}
+
+.navbar p {
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#mid {
+    margin: 45px auto;
+    width: 45%;
+    display: block;
+    font-size: 20px;
+}
+
+.navbar li {
+    display: inline-block;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 8px;
+    padding: 3px;
+    margin: 2px auto;
+}
+
+.navbar li:hover {
+    background-color: rgb(73, 127, 177);
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: black;
+}
+
+#right {
+    position: absolute;
+    right: 34px;
+    top: 54px;
+    display: inline-block;
+    width: 30%;
+    font-size: 25px;
+    text-align: center;
+}
+
+#search {
+    position: absolute;
+    right: 3px;
+    top: 12px;
+    font-size: 13px;
+    width: 60px;
+    height: 28px;
+}
+
+#search:hover {
+    background-color: rgb(219, 218, 205);
+    cursor: pointer;
+}
+
+#searchitem {
+    position: absolute;
+    right: 65px;
+    top: 12px;
+    width: 200px;
+}
+
+/* home */
+
+.homeitems {
+    border: 3px solid black;
+    border-radius: 8px;
+    margin: 20px auto;
+    width: 95%;
+    height: 800px;
+    display: block;
+    text-align: center;
+}
+
+#lefthomeitems {
+    display: inline-block;
+    position: absolute;
+    left: 70px;
+    top: 170px;
+    width: 21%;
+    height: 370px;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+#lefthomeitems img {
+    margin-top: 10px;
+    width: 250px;
+    height: 280px;
+}
+
+#leftcontent {
+    margin-top: 0px;
+}
+
+#midhomeitems {
+    margin: 10px auto;
+    width: 23%;
+    height: 370px;
+    display: block;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+#midhomeitems img {
+    margin-top: 10px;
+    width: 250px;
+    height: 280px;
+}
+
+#midcontent {
+    margin-top: 0px;
+}
+
+#righthomeitems {
+    display: inline-block;
+    position: absolute;
+    width: 21%;
+    height: 370px;
+    right: 70px;
+    border: 2px solid black;
+    border-radius: 4px;
+    top: 170px;
+}
+
+#righthomeitems img {
+    margin-top: 10px;
+    width: 250px;
+    height: 280px;
+}
+
+#rightcontent {
+    margin-top: 0px;
+}
+
+#button {
+    display: inline-block;
+    position: absolute;
+    top: 328px;
+    right: 100px;
+    background-color: rgb(172, 230, 224);
+    border: 3px solid rgb(126, 199, 193);
+    border-radius: 4px;
+}
+
+#button:hover {
+    background-color: rgb(62, 197, 184);
+}
+
+#midbutton {
+    display: inline-block;
+    position: absolute;
+    top: 500px;
+    right: 638px;
+    background-color: rgb(172, 230, 224);
+    border: 3px solid rgb(126, 199, 193);
+    border-radius: 4px;
+}
+
+#midbutton:hover {
+    background-color: rgb(98, 165, 158);
+}
+
+/* homeitems-2 */
+
+#lefthomeitems2 {
+    display: inline-block;
+    position: absolute;
+    left: 70px;
+    top: 570px;
+    width: 21%;
+    height: 370px;
+    border: 2px solid black;
+}
+
+#lefthomeitems2 img {
+    margin-top: 10px;
+    width: 250px;
+    height: 280px;
+}
+
+#leftcontent2 {
+    margin-top: 0px;
+}
+
+#midhomeitems2 {
+    margin: 28px auto;
+    width: 23%;
+    height: 370px;
+    display: block;
+    border: 2px solid black;
+}
+
+#midhomeitems2 img {
+    margin-top: 10px;
+    width: 250px;
+    height: 280px;
+}
+
+#midcontent2 {
+    margin-top: 0px;
+}
+
+#righthomeitems2 {
+    display: inline-block;
+    position: absolute;
+    width: 21%;
+    height: 370px;
+    right: 70px;
+    border: 2px solid black;
+    top: 570px;
+}
+
+#righthomeitems2 img {
+    margin-top: 10px;
+    width: 250px;
+    height: 280px;
+}
+
+#rightcontent2 {
+    margin-top: 0px;
+}
+
+#button2 {
+    display: inline-block;
+    position: absolute;
+    top: 328px;
+    right: 100px;
+    background-color: rgb(172, 230, 224);
+    border: 3px solid rgb(126, 199, 193);
+    border-radius: 4px;
+}
+
+#button2:hover {
+    background-color: rgb(98, 165, 158);
+}
+
+#midbutton2 {
+    display: inline-block;
+    position: absolute;
+    top: 900px;
+    right: 635px;
+    background-color: rgb(172, 230, 224);
+    border: 3px solid rgb(126, 199, 193);
+    border-radius: 4px;
+}
+
+#midbutton2:hover {
+    background-color: rgb(98, 165, 158);
+}
